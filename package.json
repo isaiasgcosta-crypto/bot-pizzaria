@@ -1,0 +1,23 @@
+{
+  "name": "bot-pizzaria",
+  "version": "1.0.0",
+  "description": "Bot de pizzaria WhatsApp",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mercadopago": "^2.12.0",
+    "whatsapp-web.js": "^1.24.0",
+    "qrcode-terminal": "^0.12.0",
+    "puppeteer": "^21.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
